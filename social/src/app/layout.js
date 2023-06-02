@@ -10,12 +10,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        
-        <main className='bg-gray-50 min-h-screen'>
-        <Navbar />
+      <Navbar />
+        <main className='w-[calc(100%-90px)] max-w-[690px] m-auto'>
         {children}
-        </main>
-        
+        </main>        
         </body>
     </html>
   )

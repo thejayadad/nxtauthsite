@@ -1,9 +1,14 @@
 import React from 'react'
+import PostCard from '@/components/PostCard'
 
 function Home() {
   return (
     <section>
-      <h2>Home Page</h2>
+      <div>
+      <PostCard />
+      <PostCard />
+      </div>
+
     </section>
   )
 }
