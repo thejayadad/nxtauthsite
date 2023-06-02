@@ -11,7 +11,7 @@ const Navbar = () => {
         <div class="flex items-center justify-end gap-3 min-w-[275px] max-w-[320px] w-full">
         <Link href="/login" className='flex items-center bg-[#F02C56] text-white border rounded-md px-3 py-[6px]'>Login</Link>
         <Link href="/login" className='flex items-center bg-[#F02C56] text-white border rounded-md px-3 py-[6px]'>Register</Link>
-          <Link href="/create" className='flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100'>Create</Link>
+          <Link href="/create-post" className='flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100'>Create</Link>
           <Link href="/create" className='flex items-center border rounded-sm px-3 py-[6px] hover:bg-gray-100'>Logout</Link>
         </div>
       </nav>
